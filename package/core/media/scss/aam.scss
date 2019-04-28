@@ -1,0 +1,16 @@
+.aam {
+    
+    @import 'bootstrap/scss/bootstrap.scss';
+
+    /* Override some default layout styles to fix AAM UI better into the WP page */
+    padding: 20px 0;
+
+    .container-fluid {
+        padding-left: 0;
+    }
+
+    .card {
+        min-width: 100%;
+        padding: 0;
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "name": "aamplugin",
+    "type": "project",
+    "description": "WordPress Advanced Access Manager plugin",
+    "repositories": [
+        {
+            "type": "path",
+            "url": "package/*",
+            "options": {
+                "symlink": true
+            }
+        }
+    ],
+    "require": {
+        "aamplugin/core": "^0.1.0",
+        "aamplugin/admin-menu": "^0.1.0"
+    }
+}
